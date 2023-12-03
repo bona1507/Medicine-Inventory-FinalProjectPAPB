@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#118768">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="316dp"
+        android:layout_height="148dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_stokbat" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Kelola Stok Obat Lebih Efisien, Layanan Prima di Genggamanmu."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/rounded"
+        android:hint="Surel"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:elevation="4dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded"
+        android:elevation="4dp"
+        android:hint="Kata sandi"
+        android:inputType="textPassword"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button2"
+        android:text="Masuk"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Belum punya akun? hubungi admin"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"></TextView>
+
+    <TextView
+        android:id="@+id/tc"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Dengan klik tombol masuk, anda setuju dengan syarat dan ketentuan kami"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"></TextView>
+
+</RelativeLayout>

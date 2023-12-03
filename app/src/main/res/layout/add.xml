@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:hint="Nama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editTextNama"
+        android:layout_marginTop="12dp"
+        android:hint="Id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNama" />
+
+    <EditText
+        android:id="@+id/editTextKategori"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editTextId"
+        android:layout_marginTop="12dp"
+        android:hint="Kategori"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextId" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextKategori"
+        android:layout_marginTop="24dp"
+        android:text="Tambah"
+        android:background="@color/buttonn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDesc" />
+
+    <EditText
+        android:id="@+id/editTextStok"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Stok"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKategori" />
+
+    <EditText
+        android:id="@+id/editTextDesc"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Deskripsi"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextStok" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

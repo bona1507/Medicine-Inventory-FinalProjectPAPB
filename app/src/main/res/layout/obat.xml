@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Header Row -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Obat"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/namaobat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Obat"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jenisobat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stok Obat"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stokobat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2"
+        android:text="Lihat Detail"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2"
+        android:text="Edit"
+        android:textColor="@color/white" />
+
+</TableLayout>

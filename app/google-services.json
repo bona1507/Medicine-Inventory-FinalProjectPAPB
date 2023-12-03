@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "649365350467",
+    "project_id": "stokbat-3dab2",
+    "storage_bucket": "stokbat-3dab2.appspot.com",
+    "firebase_url": "https://stokbat-3dab2-default-rtdb.asia-southeast1.firebasedatabase.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649365350467:android:e9bd9d2a7b34dd84638cf6",
+        "android_client_info": {
+          "package_name": "com.example.stokbat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqybwRmoPgcUNBeUD8vf8QMqRYGjNraDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
