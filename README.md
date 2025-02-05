@@ -6,6 +6,7 @@ Medicine Inventory adalah aplikasi Android yang digunakan untuk mengelola stok o
 - **Cek Stok**: Memeriksa jumlah obat yang tersedia.
 - **Tambah Stok**: Menambahkan stok obat baru ke dalam sistem.
 - **Jenis Obat**: Mengelompokkan obat berdasarkan kategori tertentu.
+  
 Aplikasi ini dirancang untuk membantu mengelola persediaan obat secara efisien.
 
 ## Teknologi dan Framework
@@ -20,6 +21,7 @@ Medicine Inventory is an Android application designed to manage medicine stock w
 - **Stock Checking**: Monitor the available quantity of medicines.
 - **Add Stock**: Add new medicine stock to the system.
 - **Medicine Categories**: Classify medicines into specific categories.
+  
 This application is developed to assist pharmacies, hospitals, or individuals in efficiently managing their medicine inventory.
 
 ## Technologies and Frameworks
